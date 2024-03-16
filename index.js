@@ -15,7 +15,7 @@ const enemyController = new EnemyController(canvas)
 
 function game() {
     ctx.drawImage(background,0,0,canvas.width,canvas.height);
-    EnemyController.draw(ctx);
+    enemyController.draw(ctx);
 }
 
 setInterval(game, 1000 / 60);

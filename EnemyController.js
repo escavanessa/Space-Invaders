@@ -29,6 +29,8 @@ export default class EnemyController {
 
     createEnemies() {
         //added the same number of rows in enemy map to the enemy row array.
+        //this sort of just recreates the tilemap with the enemy object injected into it and 
+        //injects it inside the enemy rows array and then adds some spacing
         this.enemyMap.forEach((row, rowIndex) => {
             this.enemyRows[rowIndex] = [];
             row.forEach((enemyNumber, enemyIndex) => {
