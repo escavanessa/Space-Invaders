@@ -26,7 +26,7 @@ export default class EnemyController {
     }
 
     draw(ctx) {
-        this.updateVelocityAndDirection
+        this.updateVelocityAndDirection()
         this.drawEnemies(ctx);
     }
 
